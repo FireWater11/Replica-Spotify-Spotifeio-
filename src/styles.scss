@@ -1,19 +1,14 @@
-
+/* You can add global styles to this file, and also import other style files */
 @use 'variaveis' as *;
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 html, body {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    background-color: $cor-fundo;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: $cor-fundo;
 }
 
 * {
-    box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
-    color: white;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
