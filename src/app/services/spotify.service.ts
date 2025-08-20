@@ -25,10 +25,10 @@ export class SpotifyService {
 
 
     async gerarCodigoAleatorio() {
-        const codigoVerificador = '';
-        const codChallenge = '';
+        // const codigoVerificador = this.gerarCodigoVerificador(128);
+        // const codChallenge = await this.gerarHash(codigoVerificador);
 
-        return codChallenge;
+        // return codChallenge;
     }
 
     constructor() {
